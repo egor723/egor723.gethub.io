@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100;
+    color: white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo-img{
+    transition: box-shadow 0.3 ease;
+}
+
+.logo-img{
+    box-shadow:0 0 10px rgba(0,0 ,0 ,0.5);
+}
+
+.banner-title{
+text-align: center;
+color: white;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+.banner-title{
+    padding: 100px;
+    background: url(fon.jpg);
+    background-size: cover;
+   background-position: center;
+}
+
+.Details{
+    color: #151c39;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    }

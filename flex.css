@@ -1,0 +1,49 @@
+.menu, .hearder-menu, .menu-link{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.header-logo{
+   /* Включаем flexbox */
+    display: flex;
+    /* Направление расположения блоков относительно main слева направо */
+    flex-direction: row;
+    /* Меняем направление расположения блоков относительно cross axis по центру */
+    align-items: center;
+    /* Размер блока с лого и названием (его вес) относительно других элементов */
+    flex-grow: 1;
+}
+
+.logo-img{
+    margin-right: 40px;
+}
+
+.hearder-menu{
+    flex-grow: 3;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-search{
+  display: flex;  
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
